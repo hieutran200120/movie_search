@@ -1,0 +1,183 @@
+.search-container {
+    margin: 30px 0;
+}
+
+body {
+    height: 45pc;
+}
+
+.searchbox label {
+    width: 100%;
+    position: relative;
+}
+
+.searchbox label :before {
+    color: #ffffff;
+    content: "\f4a4";
+    font-family: 'Ionicons';
+    position: absolute;
+    font-weight: lighter;
+    bottom: 2px;
+    left: 0;
+    font-size: 22px;
+}
+
+main input .twitter-typeahead,
+.typeahead {
+    width: 100%;
+    background: none;
+    border-bottom: solid 1px white;
+}
+
+.form-control {
+    border: none;
+}
+
+.form-control:focus {
+    color: #ffffff;
+}
+
+
+.tt-open {
+    min-width: 100%;
+    margin-top: 2px;
+    padding: 5px 0;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+    color: #fafafa;
+
+}
+
+.tt-suggestion:hover {
+    background: #00FC87;
+}
+
+.title {
+    font-family: "noto sans", sans-serif;
+    font-size: 28px;
+    color: #fafafa;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(10px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.tt-suggestion p .tt-cursor:hover {
+    color: #343434;
+    background-color: #00FC87;
+    cursor: pointer;
+}
+
+.movie {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 356px;
+    height: 527px;
+}
+
+.movie-details {
+    background: #000000;
+    padding: 26px;
+    height: 527px;
+}
+
+.col-ms-6 {
+    padding: 0;
+    margin: 0;
+}
+
+.tagline {
+    font-family: "Oswald", sans-serif;
+    font-size: 14.7px;
+    color: #00FC87;
+    font-weight: 800;
+}
+
+.overview {
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+
+span {
+    color: #ffffff;
+}
+
+.runtime {
+    color: #00FC87;
+    font-size: 22.7px;
+    font-family: "Oswald", sans-serif;
+}
+
+.vote_average {
+    color: #00FC87;
+    font-size: 22.7px;
+    font-family: "Oswald", sans-serif;
+}
+
+.release_date {
+    color: #00FC87;
+    font-size: 22.7px;
+    font-family: "Oswald", sans-serif;
+}
+
+.name {
+    color: #00FC87;
+    font-size: 22.7px;
+    font-family: "Oswald", sans-serif;
+}
+
+.production {
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.poster {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.col-md-6 {
+    padding: 0px;
+}
+
+.searchbox {
+    margin: 30px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: solid 1px #ffffff;
+    width: 427px;
+}
+
+.searchbox__input {
+    color: #ffffff;
+    width: 427px;
+}
